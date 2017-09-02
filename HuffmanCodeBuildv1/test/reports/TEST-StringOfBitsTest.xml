@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Seraphiel" name="StringOfBitsTest" skipped="0" tests="24" time="0.382" timestamp="2016-10-14T19:38:12">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="coverage.summaryxml.dir" value="C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\coverage\reports\cobertura-summary-xml" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="coverage.reports.dir" value="C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\coverage\reports" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="dist" value="C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\dist" />
+    <property name="lib" value="C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\lib" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes" />
+    <property name="TODAY" value="October 14 2016" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\apache-ant-1.9.7" />
+    <property name="java.runtime.version" value="1.8.0_60-b27" />
+    <property name="cobertura.dir" value="C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\lib\cobertura" />
+    <property name="user.name" value="Vandesir" />
+    <property name="reports" value="C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\test\reports" />
+    <property name="user.language" value="en" />
+    <property name="build" value="C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\build" />
+    <property name="coverage.reports.junit.html.dir" value="C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\coverage\reports\junit-html" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin" />
+    <property name="ant.project.default-target" value="all" />
+    <property name="ant.project.name" value="Generic Build" />
+    <property name="DSTAMP" value="20161014" />
+    <property name="java.version" value="1.8.0_60" />
+    <property name="coverage.html.dir" value="C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\coverage\reports\cobertura-html" />
+    <property name="version" value="$Revision: 6 $" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed" />
+    <property name="doc" value="C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\doc" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="stylecheck" value="C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\stylecheck" />
+    <property name="classes.dir" value="C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\coverage\classes" />
+    <property name="java.class.version" value="52.0" />
+    <property name="src" value="C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_60\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.60-b23" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\apache-ant-1.9.7\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="ant.file.Generic Build" value="C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\build.xml" />
+    <property name="sun.stdout.encoding" value="cp437" />
+    <property name="user.script" value="" />
+    <property name="coverage.dir" value="C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\coverage" />
+    <property name="user.home" value="C:\Users\Vandesir" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="test" value="C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\test" />
+    <property name="coverage.xml.dir" value="C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\coverage\reports\cobertura-xml" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_60\bin\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Acer\abFiles\;C:\Program Files (x86)\MiKTeX\miktex\bin\;D:\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\SlikSvn\bin;C:\Program Files (x86)\scala\bin;C:\Program Files (x86)\sbt\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Elm Platform\0.17.1\bin;C:\Program Files\SlikSvn\bin;C:\Program Files (x86)\scala\bin;C:\apache-ant-1.9.7\bin;C:\Users\Vandesir\AppData\Local\Microsoft\WindowsApps;C:\Users\Vandesir\AppData\Roaming\npm;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner StringOfBitsTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\test\reports\TEST-StringOfBitsTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\test\reports\TEST-StringOfBitsTest.txt crashfile=C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\junitvmwatcher2736485583460246643.properties propsfile=C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\junit7134538316104152427.properties" />
+    <property name="java.class.path" value="C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\lib\checkstyle.jar;C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\lib\cobertura\asm-5.0.1.jar;C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\lib\cobertura\asm-analysis-5.0.1.jar;C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\lib\cobertura\asm-commons-5.0.1.jar;C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\lib\cobertura\asm-tree-5.0.1.jar;C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\lib\cobertura\asm-util-5.0.1.jar;C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\lib\cobertura\cobertura-2.1.1.jar;C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\lib\cobertura\commons-lang3-3.3.2.jar;C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\lib\cobertura\logback-classic-1.0.13.jar;C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\lib\cobertura\logback-core-1.0.13.jar;C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\lib\cobertura\oro-2.0.8.jar;C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\lib\cobertura\slf4j-api-1.7.5.jar;C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\lib\hamcrest-core.jar;C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\lib\junit-prev.jar;C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\lib\junit.jar;C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\build;C:\apache-ant-1.9.7\lib\ant-launcher.jar;C:\apache-ant-1.9.7\lib\ant.jar;C:\apache-ant-1.9.7\lib\ant-junit.jar;C:\apache-ant-1.9.7\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.7 compiled on April 9 2016" />
+    <property name="TSTAMP" value="1337" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="ant.file.type.Generic Build" value="file" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="java.io.tmpdir" value="C:\Users\Vandesir\AppData\Local\Temp\" />
+    <property name="coverage.reports.junit.xml.dir" value="C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\coverage\reports\junit-xml" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="instrumented.dir" value="C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild\coverage\instrumented" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="C:\Users\Vandesir\CS\CS 390K\HuffmanCodeBuild" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\apache-ant-1.9.7\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="sun.stderr.encoding" value="cp437" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="all" />
+  </properties>
+  <testcase classname="StringOfBitsTest" name="constructorTest" time="0.003" />
+  <testcase classname="StringOfBitsTest" name="appendBitStringZeroTest" time="0.001" />
+  <testcase classname="StringOfBitsTest" name="appendBooleanOneTest" time="0.0" />
+  <testcase classname="StringOfBitsTest" name="appendIntOneTest" time="0.0" />
+  <testcase classname="StringOfBitsTest" name="intAtTest" time="0.0" />
+  <testcase classname="StringOfBitsTest" name="appendCharOneTest" time="0.001" />
+  <testcase classname="StringOfBitsTest" name="appendIntZeroTest" time="0.001" />
+  <testcase classname="StringOfBitsTest" name="appendStringOneTest" time="0.0" />
+  <testcase classname="StringOfBitsTest" name="copyConstructorTest" time="0.001" />
+  <testcase classname="StringOfBitsTest" name="charAtTest" time="0.0" />
+  <testcase classname="StringOfBitsTest" name="toStringTest" time="0.001" />
+  <testcase classname="StringOfBitsTest" name="booleanAtNegativeIndexException" time="0.001" />
+  <testcase classname="StringOfBitsTest" name="booleanAtIndexException" time="0.001" />
+  <testcase classname="StringOfBitsTest" name="setBitAtTest" time="0.0" />
+  <testcase classname="StringOfBitsTest" name="appendStringZeroTest" time="0.0" />
+  <testcase classname="StringOfBitsTest" name="appendBitStringOneTest" time="0.003" />
+  <testcase classname="StringOfBitsTest" name="charAtNegativeIndexException" time="0.0" />
+  <testcase classname="StringOfBitsTest" name="booleanAtTest" time="0.001" />
+  <testcase classname="StringOfBitsTest" name="intAtIndexException" time="0.0" />
+  <testcase classname="StringOfBitsTest" name="appendBooleanZeroTest" time="0.0" />
+  <testcase classname="StringOfBitsTest" name="appendCharZeroTest" time="0.001" />
+  <testcase classname="StringOfBitsTest" name="intAtNegativeIndexException" time="0.001" />
+  <testcase classname="StringOfBitsTest" name="emptyConstructorTest" time="0.0" />
+  <testcase classname="StringOfBitsTest" name="charAtIndexException" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

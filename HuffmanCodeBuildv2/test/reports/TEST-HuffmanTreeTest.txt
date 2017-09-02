@@ -1,0 +1,19 @@
+Testsuite: HuffmanTreeTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.283 sec
+
+Testcase: setFrequencyTest took 0.013 sec
+Testcase: compareToTest took 0.001 sec
+Testcase: equalsInternalNodeTest took 0.001 sec
+Testcase: leafNodeTest took 0.001 sec
+Testcase: getFrequencyTest took 0 sec
+Testcase: getSymbolTest took 0 sec
+Testcase: internalNodeWithFrequencyTest took 0.001 sec
+Testcase: equalsTest took 0.001 sec
+Testcase: setSymbolTest took 0.001 sec
+Testcase: internalNodeWithDataTest took 0.001 sec
+Testcase: setCodeTest took 0 sec
+Testcase: getCodeTest took 0 sec
+Testcase: hashCodeTest took 0 sec
+Testcase: equalsLeafTest took 0.001 sec
+Testcase: internalNodeTest took 0 sec
+Testcase: leafNodeWithParamTest took 0 sec

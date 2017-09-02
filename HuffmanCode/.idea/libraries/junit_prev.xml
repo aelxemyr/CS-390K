@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="junit-prev">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/junit-prev.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

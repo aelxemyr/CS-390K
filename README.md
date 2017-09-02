@@ -1,1 +1,1 @@
-Things written in Java for CS 390K - Programming Pragmatics at MSU Denver in Fall 2016.
+Things written in Java for a junior-level programming course at the Metropolitan State University of Denver. Many of the projects are written in a style which takes advantage of the functional programming features of Java 8.

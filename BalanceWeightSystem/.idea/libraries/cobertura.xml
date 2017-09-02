@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="cobertura">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/cobertura/asm-5.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cobertura/asm-util-5.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cobertura/cobertura-2.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cobertura/asm-analysis-5.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cobertura/commons-lang3-3.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cobertura/logback-core-1.0.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cobertura/logback-classic-1.0.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cobertura/asm-tree-5.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cobertura/asm-commons-5.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cobertura/oro-2.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cobertura/slf4j-api-1.7.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="C:\Users\Vandesir\CS\CS 390K\BalanceWeightSystem\src\BalanceWeightSystem.java">
+</file>
+<file name="C:\Users\Vandesir\CS\CS 390K\BalanceWeightSystem\src\DynamicProgrammingBalanceWeightSystem.java">
+</file>
+<file name="C:\Users\Vandesir\CS\CS 390K\BalanceWeightSystem\src\DynamicProgrammingBalanceWeightSystemTest.java">
+</file>
+<file name="C:\Users\Vandesir\CS\CS 390K\BalanceWeightSystem\src\GreedyBalanceWeightSystem.java">
+</file>
+<file name="C:\Users\Vandesir\CS\CS 390K\BalanceWeightSystem\src\GreedyBalanceWeightSystemTest.java">
+</file>
+<file name="C:\Users\Vandesir\CS\CS 390K\BalanceWeightSystem\src\RecursiveBalanceWeightSystem.java">
+</file>
+<file name="C:\Users\Vandesir\CS\CS 390K\BalanceWeightSystem\src\RecursiveBalanceWeightSystemTest.java">
+</file>
+<file name="C:\Users\Vandesir\CS\CS 390K\BalanceWeightSystem\src\Weight.java">
+</file>
+<file name="C:\Users\Vandesir\CS\CS 390K\BalanceWeightSystem\src\WeightFamily.java">
+</file>
+<file name="C:\Users\Vandesir\CS\CS 390K\BalanceWeightSystem\src\WeightFamilyTest.java">
+</file>
+<file name="C:\Users\Vandesir\CS\CS 390K\BalanceWeightSystem\src\WeightTest.java">
+</file>
+</checkstyle>

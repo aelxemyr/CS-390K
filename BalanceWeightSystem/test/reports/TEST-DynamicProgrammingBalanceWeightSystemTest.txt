@@ -1,0 +1,24 @@
+Testsuite: DynamicProgrammingBalanceWeightSystemTest
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.2 sec
+
+Testcase: constructorTest took 0.015 sec
+Testcase: calculateSolutionInstanceTest took 0.014 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at java.util.ArrayList.<init>(ArrayList.java:177)
+	at DynamicProgrammingBalanceWeightSystemTest.containsSolution(DynamicProgrammingBalanceWeightSystemTest.java:150)
+	at DynamicProgrammingBalanceWeightSystemTest.lambda$calculateSolutionInstanceTest$1(DynamicProgrammingBalanceWeightSystemTest.java:126)
+	at java.util.HashMap.forEach(HashMap.java:1280)
+	at DynamicProgrammingBalanceWeightSystemTest.calculateSolutionInstanceTest(DynamicProgrammingBalanceWeightSystemTest.java:125)
+
+Testcase: calculateSolutionStaticTest took 0.003 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at java.util.ArrayList.<init>(ArrayList.java:177)
+	at DynamicProgrammingBalanceWeightSystemTest.containsSolution(DynamicProgrammingBalanceWeightSystemTest.java:150)
+	at DynamicProgrammingBalanceWeightSystemTest.lambda$calculateSolutionStaticTest$2(DynamicProgrammingBalanceWeightSystemTest.java:137)
+	at java.util.HashMap.forEach(HashMap.java:1280)
+	at DynamicProgrammingBalanceWeightSystemTest.calculateSolutionStaticTest(DynamicProgrammingBalanceWeightSystemTest.java:136)
+

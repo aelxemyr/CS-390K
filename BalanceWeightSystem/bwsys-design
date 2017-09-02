@@ -1,0 +1,62 @@
+Design for Weight Composition Project:
+
+NOTE: input and output classes need to be fleshed out further.
+
+public class BalanceWeightSystem
+- Calculates solution to weight composition problem, given a family of weights
+      and a total weight.
+    public WeightSolution calculateSolution(WeightFamily family, int desiredTotalWeight)
+    - Given a family of weights and a total weight, calculate and return a minimum-sized
+      collection of weights such that the sum of the weights of the solution is the
+      given total weight.
+public class WeightSystemInput
+- Input interface class. NEEDS METHODS.
+    public InputInterface()
+    - Create a new input interface object.
+public class WeightSystemOutput
+- Output interface class. NEEDS METHODS.
+    public OutputInterface()
+    - Create a new output interface object
+public class Weight implements Comparable<Weight>
+- Represents a weight in weight composition problem.
+    public Weight(int weight)
+    - Create a new weight object with a given weight value.
+    public int getWeight()
+    - Return the weight value associated with this weight.
+    public int CompareTo(Weight other)
+    - Compares this Weight with the parameter for order.
+public interface WeightCollection
+    - General specification for a collection of weights
+    public Collection<Weight> getWeights()
+    - Return the collection of weights associated with this object.
+    public int size()
+    - Return the size of this collection of weights.
+    public boolean isEmpty()
+    - Return true if this collection contains no weights.
+public class WeightFamily implements WeightCollection
+    - Represents a family of weights in weight composition problem.
+    public WeightFamily(Set<Weight> familyOfWeights)
+    - Create a new WeightFamily object based on a given family of weights.
+    public Collection<Weight> getWeights()
+    - Return the collection of weights associated with this object.
+    public int size()
+    - Return the size of this collection of weights.
+    public boolean isEmpty()
+    - Return true if this collection contains no weights.
+    public Weight getSmallestWeight()
+    - Return the smallest weight contained in this family of weights.
+public class WeightSolution implements WeightCollection
+    - Represents a solution to the weight composition problem, i.e., a minimum-sized
+      collection of weights.
+    public WeightSolution()
+    - Creates a new empty solution collection.
+    public WeightSolution(WeightCollection weights)
+    - Creates a new solution collection using an existing collection of weights.
+    public WeightSolution(Collection<Weight> weights)
+    - Creates a new solution collection using an existing WeightCollection
+    public Collection<Weight> getWeights()
+    - Return the collection of weights associated with this object.
+    public int size()
+    - Return the size of this collection of weights.
+    public boolean isEmpty()
+    - Return true if this collection contains no weights.
